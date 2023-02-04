@@ -367,6 +367,9 @@ div#small-dialog iframe {
 .mfp-close:active {
     top: -40px;
 }
+.mfp-hide {
+    display: none !important;
+}
 
 /**
      * Fade-zoom animation for first dialog
