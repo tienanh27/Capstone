@@ -381,10 +381,14 @@
                             </ul>
                             <div class="main-social mt-3">
                                 <ul class="social-icons">
-                                    <li class="facebook" ><a href="" title="facebook"><span class="fa-brands fa-facebook-f"></a></span></li>
-                                    <li class="twitter" ><a href="" title="twitter"><span  class="fa-brands fa-twitter"></span></a></li>
-                                    <li class="dribbble" ><a href="" title="dribbble"><span  class="fa-brands fa-dribbble"></span></a></li>
-                                    <li class="google" ><a href="" title="google"><span class="fa-brands fa-google"></span></a></li>
+                                    <li class="facebook"><a href="" title="facebook"><span
+                                                class="fa-brands fa-facebook-f"></a></span></li>
+                                    <li class="twitter"><a href="" title="twitter"><span
+                                                class="fa-brands fa-twitter"></span></a></li>
+                                    <li class="dribbble"><a href="" title="dribbble"><span
+                                                class="fa-brands fa-dribbble"></span></a></li>
+                                    <li class="google"><a href="" title="google"><span
+                                                class="fa-brands fa-google"></span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -425,13 +429,15 @@
                     <div class="container">
                         <p class="copy-footer-28 text-center">
                             © 2020 Pooch Care. All Rights Reserved. Design by
-                        <a href="https://w3layouts.com/">W3Layouts</a>
-                    </p>
+                            <a href="https://w3layouts.com/">W3Layouts</a>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+    <button onclick="topFunction()" id="movetop"
+        class="backToTop cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out">⤴</button>
 
 
     <!-- jquery -->
@@ -470,6 +476,21 @@
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/carousel.js"></script>
+    <!-- backtotop -->
+    <script src="./js/main.js"></script>
+    <script src="./js/util.js"></script>
+    <script>
+        window.onscroll = function () {
+            scrollFunction()
+        };
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+    </script>
 </body>
 
 </html>

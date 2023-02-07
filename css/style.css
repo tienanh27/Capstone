@@ -699,7 +699,26 @@ footer .copy-footer-28 a {
     opacity: 0.9;
 }
 
-
+/* back-to-top */
+#movetop {
+    display: none;
+    position: fixed;
+    bottom: 90px;
+    right: 15px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    width: 48px;
+    height: 48px;
+    background: var(--primary-color);
+    padding: 0;
+    line-height: 36px;
+    border-radius: 50px;
+    transition: 0.3s ease-out;
+}
 /* amimation */
 @-webkit-keyframes ripple {
     0% {
