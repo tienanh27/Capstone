@@ -734,7 +734,7 @@ footer .copy-footer-28 a {
     100% {
         box-shadow: 0 0 0 10px rgba(15, 162, 67, 0.25), 0 0 0 20px rgba(15, 162, 67, 0.25), 0 0 0 40px rgba(50, 100, 245, 0);
     }
-
+}
 .dark {
     --primary-color: #189A46;
     --secondary-color: #f53626;
